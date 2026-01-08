@@ -27,8 +27,8 @@ export default function Chat() {
         {/* Top Indicator */}
         <div className="flex justify-center pt-6">
 
-          <div className="px-16 py-3 bg-neutral-900 text-white text-lg font-medium rounded-full shadow-xl">
-            {step} / 20
+          <div className="px-16 py-3 flex col-2 bg-neutral-900 text-white justify-center items-center text-lg font-medium rounded-full shadow-xl">
+            {step} / 20 <div className="h-2 w-2 bg-green-300 rounded-2xl ml-4 animate-pulse"></div>
           </div>
         </div>
 
